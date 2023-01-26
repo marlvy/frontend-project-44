@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-import { greetings } from '../src/cli.js';
+import { greetings } from '../src/cli';
 
-console.log("Welcome to the Brain Games!")
+// eslint-disable-next-line no-console
+console.log('Welcome to the Brain Games!');
 
 greetings();
